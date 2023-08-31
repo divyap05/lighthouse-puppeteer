@@ -1,0 +1,27 @@
+{
+  "name": "puppeteer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "audit": "npx lhci autorun",
+    "mocha-test": "mocha tests/testWithMocha.js --timeout 60000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@lhci/cli": "^0.12.0",
+    "chai": "^4.3.8",
+    "lighthouse": "^11.0.0",
+    "mocha": "^10.2.0",
+    "node": "^20.4.0",
+    "open": "^9.1.0",
+    "puppeteer": "^20.9.0"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "keywords": [],
+  "description": ""
+}
